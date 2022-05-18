@@ -1,7 +1,14 @@
 <title>צייר את זה מהר | איתן בילצקי</title>
-<iframe src="https://codepen.io/EitanB/full/NWvqLMz" class="main" width=none height=none fullscreen></iframe>
+<iframe src="https://codepen.io/EitanB/full/NWvqLMz" class="main" id="iframe" width=none height=none fullscreen></iframe>
 <style>
   .main{
     border: none;
   }
 </style>
+<script>
+  var iframe = document.getElementById("iframe");
+  var sw = screen.width;
+  var sh = screen.height;
+  iframe.setAttribute("width", sw);
+  iframe.setAttribute("height", sh);
+</script>
